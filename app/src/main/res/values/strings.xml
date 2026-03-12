@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Visualizar - AR Medições</string>
+    <string name="btn_undo">Desfazer</string>
+    <string name="btn_clear">Limpar</string>
+    <string name="btn_save">Salvar</string>
+    <string name="instruction_tap">Toque na tela para marcar pontos</string>
+    <string name="point_added">Ponto adicionado</string>
+    <string name="point_removed">Ponto removido</string>
+    <string name="measurement_cleared">Medição limpa</string>
+    <string name="measurement_saved">Medição salva</string>
+    <string name="no_surface_detected">Não foi possível detectar superfície</string>
+    <string name="arcore_not_supported">ARCore não é suportado neste dispositivo</string>
+    <string name="camera_permission_denied">Permissão de câmera negada</string>
+</resources>
