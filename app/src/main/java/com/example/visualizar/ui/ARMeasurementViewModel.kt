@@ -91,4 +91,9 @@ class ARMeasurementViewModel : ViewModel() {
      * Retorna o gerenciador de medições
      */
     fun getMeasurementManager(): MeasurementManager = measurementManager
+    
+    /**
+     * Retorna a lista atual de pontos
+     */
+    fun getPoints(): List<Point3D> = measurementManager.getCurrentPoints()
 }

@@ -4,12 +4,11 @@
     android:layout_height="match_parent"
     android:background="@android:color/black">
 
-    <!-- Container principal para toque -->
-    <FrameLayout
+    <!-- Container principal AR -->
+    <android.opengl.GLSurfaceView
         android:id="@+id/surfaceView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/darker_gray" />
+        android:layout_height="match_parent" />
 
     <!-- Painel de informações -->
     <LinearLayout
