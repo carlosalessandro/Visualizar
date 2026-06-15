@@ -182,8 +182,7 @@ class ARRenderer(private val activity: android.app.Activity) : GLSurfaceView.Ren
         val mvpMatrixHandle = GLES20.glGetUniformLocation(pointProgram, "uMVPMatrix")
         GLES20.glUniformMatrix4fv(mvpMatrixHandle, 1, false, mvpMatrix, 0)
         
-        // Desenha pontos
-        GLES20.glPointSize(15.0f)
+        // Desenha pontos (tamanho definido no shader)
         GLES20.glDrawArrays(GLES20.GL_POINTS, 0, points.size)
         
         GLES20.glDisableVertexAttribArray(positionHandle)
